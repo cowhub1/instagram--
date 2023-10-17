@@ -1,0 +1,221 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  /* flex-direction: column; */
+}
+
+/* 컨테이너 속성 */
+.login .container {
+  color: rgb(var(--ig-primary-text));
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 12px;
+  max-width: 350px;
+}
+
+.container .login_container,
+.container .account_join {
+  align-items: center;
+  background-color: rgb(var(--ig-primary-background));
+  border: 1px solid #DBDBDB;
+  border-radius: 1px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font: caption;
+  font-size: 100%;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* 로고 속성 */
+.login .logo_text {
+  align-self: center;
+  width: 175px;
+  margin: 35px 0;
+}
+
+/* 입력창 속성 */
+
+.input_login {
+  width: 270px;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.input_login::placeholder {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.input_login:focus {
+  border: 1px solid #8a8a8a;
+  outline: none;
+}
+
+#messageDiv {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+/* 버튼 속성 */
+
+#btn_login {
+  width: 268px;
+  height: 30px;
+  margin: 8px auto;
+  background-color: #6fb7eb;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+#btn_login:enabled:hover {
+  cursor: pointer;
+}
+
+#btn_login:focus {
+  outline: #8e8e8e;
+}
+
+/* #btn_login:active {
+  background-color: #8a8a8a;
+  Darker background color when clicked
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  Add a box shadow for depth
+  transform: translateY(1px);
+  Move the button down slightly
+} */
+
+.underline {
+  color: #217eda;
+  align-self: center;
+  font-size: 14px;
+  margin-top: 0.6rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.underline2 {
+  color: #217eda;
+  align-self: center;
+  font-size: 12px;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.underline:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* 가입하기 */
+.qestion {
+  text-decoration: none;
+  cursor: default;
+}
+
+.facebook_login {
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 16px !important;
+  pointer-events: auto;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: inherit;
+  width: auto;
+  border: 0;
+  color: rgb(var(--ig-primary-button));
+  display: inline-block;
+  padding: 0 !important;
+  position: relative;
+  text-align: center;
+}
+
+.facebook_logo {
+  border: 0;
+  display: inline-block;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  margin-right: 8px;
+  padding: 0;
+  position: relative;
+  top: 3px;
+  /* vertical-align: baseline;
+  background-repeat: no-repeat;
+  background-position: -414px -259px; */
+  /* height: 16px;
+  width: 16px; */
+}
+
+.facebook {
+  color: #385185;
+}
+
+.screenchange {
+  margin-left: 112px;
+  padding-left: 0;
+  font-size: 100%;
+  padding-top: 0;
+  flex-direction: column;
+  border-left: 0;
+  box-sizing: border-box;
+  display: flex;
+  padding-right: 0;
+  flex-shrink: 0;
+  margin-top: 27px;
+  align-items: stretch;
+  position: relative;
+  border-right: 0;
+  padding-bottom: 0;
+  vertical-align: baseline;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.scs {
+  left: 157px;
+  width: 250px;
+  height: 538.84px;
+  visibility: visible;
+  padding-left: 0;
+  font-size: 100%;
+  z-index: 2;
+  padding-top: 0;
+  margin-top: 0;
+  border-left: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  margin-left: 0;
+  border-right: 0;
+  padding-bottom: 0;
+  top: 28px;
+  vertical-align: baseline;
+  margin-right: 0;
+  position: absolute;
+  border-bottom: 0;
+  border-top: 0;
+  border: 0;
+}
